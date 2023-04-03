@@ -13,3 +13,18 @@
 .inputOption > h4 {
   margin-left: 5px;
 }
+@media (max-width: 930px) {
+  .inputOption {
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .inputOption {
+    flex-direction: row;
+  }
+}
+@media (max-width: 350px) {
+  .inputOption {
+    flex-direction: column;
+  }
+}
